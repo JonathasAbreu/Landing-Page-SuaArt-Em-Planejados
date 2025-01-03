@@ -1,0 +1,142 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+}
+
+#home-section{
+    background: url('../img/home-section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+}
+
+#home-section .fas,
+#tp .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#sm .fas {
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#home-section .card-body h3{
+    font-size: 50px;
+}
+
+#home-section .card-body p{
+    font-size: 20px;
+}
+
+#home-section .card-body a {
+    color: #fff;
+    background-color: #008ed6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#home-section .card-body a:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#tp-head-section a {
+    color: #fff;
+    background-color: #008ed6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#tp-head-section a:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.insta button {
+    color: #fff;
+    background-color: #008ed6;
+    padding: 10px 20px;
+    margin: 0px 890px;    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+
+.insta button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#gallery {
+    background-color: #fff;
+}
+
+#gallery .text-center {
+    color: black;
+}
+
+#home-pg-2 {
+    background-color: #008ed6;
+    color: #fff;
+}
+
+#sm-head-section .lead {
+    font-size: 25px;
+}
+
+#sm .d-flex{
+    font-size: 21px;
+}
